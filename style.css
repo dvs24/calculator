@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    margin: 15vh auto ;
+    background-color:rgb(138, 231, 243);
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    padding: 17px;
+}
+
+.input{
+    margin: 17px;
+}
+
+input{
+    height: 27px;
+    width: 219px;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 0 7px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(138, 231, 243);
+    width: fit-content;
+    margin: auto;
+    
+    
+}
+.btn{
+    margin: 6px;
+    padding: 11px;
+    width: 45px;
+    border: 2px solid rgb(138, 231, 243);
+    /* border-radius: 5px; */
+    background-color: rgb(138, 231, 243);
+    color: black;
+    cursor: pointer;
+}
